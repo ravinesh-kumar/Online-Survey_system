@@ -210,8 +210,8 @@ button.list-group-item:hover{
 	<li><a href="about.php"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
 	<li><a href="contact.php"><span class="glyphicon glyphicon-earphone"></span> Contact Us</a></li>
 	<li><a href="help.php"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
-	<li class="a"><a data-toggle="modal" data-target="#login" href="#"><span class="glyphicon glyphicon-user"></span> Login</a></li>
-	<li class="ar"><a data-toggle="modal" data-target="#register" href="#"><span class="glyphicon glyphicon-registration-mark"></span> Register</a></li>
+	<li class="a"><a data-toggle="modal" data-target="#login" href="login"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+	<li class="ar"><a data-toggle="modal" data-target="#register" href=""><span class="glyphicon glyphicon-registration-mark"></span> Register</a></li>
 	</ul>
 	</div>
 	
@@ -398,7 +398,7 @@ echo "<br><br>$p</div>";
 	</div>
 	</div>
 	<div style="width:102.5%; margin-left:-1.2%;margin-top:-5%;" class="container footer"><center>&copy; 2017 | All Rights Reserved | Themed By <a style="color:white; cursor:pointer; target="_blank" href="https://www.facebook.com/ankitthegr8">@nkit</a> |
-	<a style="color:white;" href="sitemap.php">Sitemap</a></center></div>
+	<a style="white-space: ;" href="sitemap.php">Sitemap</a></center></div>
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -522,7 +522,7 @@ $(function () {
       </div>
       <div class="modal-body">
 	  <br>
-        <form action="" name="lfrom" method="POST">
+        <form action="login" name="lfrom" method="POST">
 		<div class="input-group">
 		<span class="input-group-addon" id="sizing-addon2"><span class="glyphicon glyphicon-envelope"></span></span>
 		<input type="email" class="form-control" required name="useremail" placeholder="Enter your email" aria-describedby="sizing-addon2">
